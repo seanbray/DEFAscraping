@@ -1,1 +1,34 @@
-This is the git repo for my Fall 2020 DHUM project. My endgoal is to be able to analyze and visualize the history of East German film, via data scraped from the East German Film Library at UMass Amherst.
+This is the git repo for my Fall 2020 DHUM project. 
+My endgoal is to be able to analyze and visualize the history of East German film, via data scraped from the East German Film Library at UMass Amherst.
+
+As of this version (12/13/20), the project contains two pieces of Python code and their respective outputs. 
+DEFA scrape is a program to pull all possible film URLs of off the DEFA film library website, leading to the file "output.txt" containing all of the relevant URLs.
+DEFA soup then does the more difficult task of scraping relevant film data from the individual webpages.
+As of this version, it can pull Title, Year, Runtime, & Format, and the cast roles: Director, Script, Dramaturg, Editor, Camera, Set Design, Costume Design, Music (Score), Cast, Producer.
+This data is output to export.xlsx, which then requires some very basic cleaning, to export cleaned.xlsx.
+For full featured use, there is some more manual cleaning to do, ex. sometimes the runtime is grabbed for the year and vice versa, but those instances are few enough that it wouldn't be too monumental an undertaking.
+Because of the limits of my experience with dataframes, the default output duplicates all of the film data as each new role is pulled (see code comments + the output file to see what I mean), but it's so easy to clean (Find & Select > Go to Special > Blanks > Delete Sheet Rows) that I'm not particularly worried about it.
+The biggest limitation, which is a function of both my coding ability and my ability to conceive of possible data formats, is that I can't fill in multiple people for the same role.
+It only grabs the first name for any given role.
+For some roles, like director, that's relatively unimportant - most films only have one director.
+But even off the top of my head, it can lead to situations like the film "You and Some Comrade," (https://ecommerce.umass.edu/defa/film/5990) where, due to the politics of citational practices, the erasure of the 2nd director is the erasure of the female contributor.
+For other roles which inherently contain more than one person, that problem is only exacerbated. 
+Finally, I still haven't cracked the code in terms of pulling the Genre & Themes information from the website. 
+This I think is fully doable going forward, but it was simply outside of the time scope of this project. 
+
+So - how to use this data, given the limitations?
+My first thought, given the number of people, was network analysis.
+Network could be an interesting way to show how/which individuals worked together, in which capacities.
+Thinking about Wolfgang Kohlhaase (https://ecommerce.umass.edu/defa/people/495), who worked across virtually the entire existence of the GDR and continued to be active into now, he could make a fascinating node of interactions.
+Because of the limitations of the data re: multiple people per role, however, the data just isn't there yet.
+
+Playing with the data in Tableau, however, I was able to figure out a few uses of the data which are helpful to me now.
+My first thought was creating a timeline; because the year data is the most solid, it made sense to base around it.
+Looking at Sheet1.png, you can see a rough draft of such a viz: here, I'm using it to visualize the careers of five of the "canon" directors, plus two women directors with a fair number of films.
+I think digging more into this timeline approach could help visualize a periodization of DEFA films, to see who was working and when.
+Although it would need to be done largely by hand, I'm also gesturing towards a future feminist inflected viz - if you could chart all of the male and female directors, you would see the exclusion of women in the early period.
+Future genre analysis would also add a key component - women were largely relegated to short films, children's TV, fairy tales, etc.
+
+Finally, just for my own research, I have a visualization of directors by raw number of films (Sheet2.png).
+This is somewhat inflated by short films, which is how Walter Heynowski ends up at the top.
+But it's still useful in the sense that I had never heard of Heynowski - this suggests he may have been more important internally than he has been placed historiographically. 
