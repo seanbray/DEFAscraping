@@ -1,13 +1,19 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import openpyxl
+
+
+def merge(dict1, dict2):
+    res = {**dict1, **dict2}
+    return res
 
 # creating a blank list for the URLs to populate to
 url_list = []
+DEFA_dict = {}
 # then create a list of film roles to scrape from the site
-credits = ['Director', 'Script', 'Dramaturg', 'Editor', 'Camera', 'Set Design',
+csv_columns = ['Title', 'Year', 'Runtime', 'Format', 'Director', 'Script', 'Dramaturg', 'Editor', 'Camera', 'Set Design',
            'Costume Design', 'Music (Score)', 'Cast', 'Producer']
+csv_file = "Data.csv"
 
 # this populates the url list with the scraping output
 with open("output.txt", "r") as f:
@@ -15,7 +21,6 @@ with open("output.txt", "r") as f:
         url_list.append(str.rstrip(item))
 
 n = 0
-
 # this for loop works through all of the URLs on my list, grabs the film title, then populates the production roles
 for url in url_list:
     html = requests.get(url).text
@@ -27,15 +32,20 @@ for url in url_list:
     runtime = soup.select('span')[4].text
     format = soup.select('span')[6].text
     captions = soup.findAll('caption')
-    for n in range(len(captions)):
-        role = soup.select('caption')[n].text
-        caption1 = soup.find_all('caption')[n]
-        # caption2 = soup.find_all('caption')[n+1] # need to find a way to grab all spans between these captions
-        foundRole = caption1.find_next_sibling.string
-        print(foundRole)
-    info = {'Title': [title], 'Year': [year], 'Runtime': [runtime], 'Format': [format]}
-    print(info)
-    n = n+1
-    print(str((n/1099)*100) + "%") # reports the % completion, helps track progress
+    roledict = {}
+    for i in range(len(captions)): # make this a try/except
+        try:
+            role = soup.select('caption')[i].text
+            name = soup.select("tbody span")[i].text
+            roledict.update({role: name})
+        except:
+            break
+    info = {'Title': title, 'Year': year, 'Runtime': runtime, 'Format': format}
+    film_dict = merge(info, roledict)
+    DEFA_dict[n] = film_dict
+    n = n + 1
+    complete = (n / 1099) * 100
+    print(str(round(complete, 2)) + "%") # reports the % completion, helps track progress
 
-# defa_df.to_excel(r'D:\Dropbox\2020 Fall\DHUM\Portfolio\Git\DEFAscraping\export.xlsx', startrow=0, index = False,header= True)
+df = pd.DataFrame.from_dict(DEFA_dict, orient='index')
+df.to_excel(r'D:\Dropbox\2020 Fall\DHUM\Portfolio\Git\DEFAscraping\testexport.xlsx', startrow=0, index = False,header= True)
