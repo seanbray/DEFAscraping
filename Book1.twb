@@ -1,0 +1,1268 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (export cleaned)' inline='true' name='federated.1bs9ygt125ccxd17hd7tf1s12p97' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='export cleaned' name='excel-direct.041hopa17he2uu17z4f161dh6z7a'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Dropbox/2020 Fall/DHUM/Portfolio/Git/DEFAscraping/export cleaned.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.041hopa17he2uu17z4f161dh6z7a' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:N1106:no:A1:N1106:0' header='yes' outcome='2'>
+            <column datatype='string' name='Camera' ordinal='0' />
+            <column datatype='string' name='Cast' ordinal='1' />
+            <column datatype='string' name='Costume Design' ordinal='2' />
+            <column datatype='string' name='Director' ordinal='3' />
+            <column datatype='string' name='Dramaturg' ordinal='4' />
+            <column datatype='string' name='Editor' ordinal='5' />
+            <column datatype='string' name='Format' ordinal='6' />
+            <column datatype='string' name='Music (Score)' ordinal='7' />
+            <column datatype='string' name='Producer' ordinal='8' />
+            <column datatype='string' name='Runtime' ordinal='9' />
+            <column datatype='string' name='Script' ordinal='10' />
+            <column datatype='string' name='Set Design' ordinal='11' />
+            <column datatype='string' name='Title' ordinal='12' />
+            <column datatype='string' name='Year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.041hopa17he2uu17z4f161dh6z7a' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:N1106:no:A1:N1106:0' header='yes' outcome='2'>
+            <column datatype='string' name='Camera' ordinal='0' />
+            <column datatype='string' name='Cast' ordinal='1' />
+            <column datatype='string' name='Costume Design' ordinal='2' />
+            <column datatype='string' name='Director' ordinal='3' />
+            <column datatype='string' name='Dramaturg' ordinal='4' />
+            <column datatype='string' name='Editor' ordinal='5' />
+            <column datatype='string' name='Format' ordinal='6' />
+            <column datatype='string' name='Music (Score)' ordinal='7' />
+            <column datatype='string' name='Producer' ordinal='8' />
+            <column datatype='string' name='Runtime' ordinal='9' />
+            <column datatype='string' name='Script' ordinal='10' />
+            <column datatype='string' name='Set Design' ordinal='11' />
+            <column datatype='string' name='Title' ordinal='12' />
+            <column datatype='string' name='Year' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Camera</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Camera]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Camera</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cast</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Cast]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cast</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Costume Design</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Costume Design]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Costume Design</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Director</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Director]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Director</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dramaturg</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dramaturg]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dramaturg</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Editor</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Editor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Editor</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Format</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Format]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Format</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Music (Score)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Music (Score)]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Music (Score)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Producer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Producer]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Producer</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Runtime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Runtime]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Runtime</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Script</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Script]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Script</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Set Design</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Set Design]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Set Design</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N1106:no:A1:N1106:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Placeholder' datatype='integer' name='[Calculation_641763004775817216]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MIN(0)' />
+      </column>
+      <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Runtime]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_1E1B6F04ADA647BEBE64D1E8FF88C356]' role='measure' type='quantitative' />
+      <column-instance column='[Director]' derivation='None' name='[none:Director:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Director,Title,Year)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Director:nk]' />
+          <groupfilter function='level-members' level='[none:Title:nk]' />
+          <groupfilter function='level-members' level='[none:Year:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_1E1B6F04ADA647BEBE64D1E8FF88C356'>
+            <properties context=''>
+              <relation connection='excel-direct.041hopa17he2uu17z4f161dh6z7a' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:N1106:no:A1:N1106:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Camera' ordinal='0' />
+                  <column datatype='string' name='Cast' ordinal='1' />
+                  <column datatype='string' name='Costume Design' ordinal='2' />
+                  <column datatype='string' name='Director' ordinal='3' />
+                  <column datatype='string' name='Dramaturg' ordinal='4' />
+                  <column datatype='string' name='Editor' ordinal='5' />
+                  <column datatype='string' name='Format' ordinal='6' />
+                  <column datatype='string' name='Music (Score)' ordinal='7' />
+                  <column datatype='string' name='Producer' ordinal='8' />
+                  <column datatype='string' name='Runtime' ordinal='9' />
+                  <column datatype='string' name='Script' ordinal='10' />
+                  <column datatype='string' name='Set Design' ordinal='11' />
+                  <column datatype='string' name='Title' ordinal='12' />
+                  <column datatype='string' name='Year' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (export cleaned)' name='federated.1bs9ygt125ccxd17hd7tf1s12p97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bs9ygt125ccxd17hd7tf1s12p97'>
+            <column caption='Placeholder' datatype='integer' name='[Calculation_641763004775817216]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MIN(0)' />
+            </column>
+            <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Director]' derivation='Attribute' name='[attr:Director:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Director]' derivation='None' name='[none:Director:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_641763004775817216]' derivation='User' name='[usr:Calculation_641763004775817216:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[Exclusions (Director,Title,Year)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Director:nk]' />
+                <groupfilter function='level-members' level='[none:Title:nk]' />
+                <groupfilter function='level-members' level='[none:Year:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[none:Director:nk]' member='&quot;Beyer, Frank&quot;' />
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:Year:nk]' member='&quot;n/a&quot;' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[none:Title:nk]' member='&quot;BOOKed: DEFA at the Crossroads&quot;' />
+                      <groupfilter function='member' level='[none:Title:nk]' member='&quot;BOOKed: East German Cinema&quot;' />
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:Director:nk]' />
+                  <hierarchy name='[none:Title:nk]' />
+                  <hierarchy name='[none:Year:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[attr:Director:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Staudte, Wolfgang&quot;</bucket>
+              <bucket>&quot;Maetzig, Kurt&quot;</bucket>
+              <bucket>&quot;Klein, Gerhard&quot;</bucket>
+              <bucket>&quot;Wolf, Konrad&quot;</bucket>
+              <bucket>&quot;Beyer, Frank&quot;</bucket>
+              <bucket>&quot;Krauße-Anderson, Monika&quot;</bucket>
+              <bucket>&quot;Gusner, Iris&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Beyer, Frank&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Gusner, Iris&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Klein, Gerhard&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Krauße-Anderson, Monika&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Maetzig, Kurt&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Staudte, Wolfgang&quot;' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;Wolf, Konrad&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Year:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Year:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Year:nk]' member='&quot;16 min&quot;' />
+                <groupfilter function='member' level='[none:Year:nk]' member='&quot;19 min&quot;' />
+                <groupfilter function='member' level='[none:Year:nk]' member='&quot;24 min&quot;' />
+                <groupfilter function='member' level='[none:Year:nk]' member='&quot;84 min&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Year:nk]</column>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]</column>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[Exclusions (Director,Title,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[usr:Calculation_641763004775817216:qk]' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Title:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1bs9ygt125ccxd17hd7tf1s12p97].[attr:Director:nk] * [federated.1bs9ygt125ccxd17hd7tf1s12p97].[usr:Calculation_641763004775817216:qk])</rows>
+        <cols>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Year:nk]</cols>
+      </table>
+      <simple-id uuid='{7B3DD78C-0625-4CEF-A21F-7DB0B5A9F761}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (export cleaned)' name='federated.1bs9ygt125ccxd17hd7tf1s12p97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bs9ygt125ccxd17hd7tf1s12p97'>
+            <column datatype='string' name='[Director]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Runtime]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Title]' derivation='Count' name='[cnt:Title:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Director]' derivation='None' name='[none:Director:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Runtime]' derivation='None' name='[none:Runtime:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[cnt:Title:qk]' included-values='in-range'>
+            <min>5</min>
+          </filter>
+          <filter class='categorical' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Director:nk]' />
+              <groupfilter function='member' level='[none:Director:nk]' member='&quot;NaN&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;NaN&quot;</bucket>
+              <bucket>&quot;Heynowski, Walter&quot;</bucket>
+              <bucket>&quot;Dammbeck, Lutz&quot;</bucket>
+              <bucket>&quot;Maetzig, Kurt&quot;</bucket>
+              <bucket>&quot;Böttcher, Jürgen&quot;</bucket>
+              <bucket>&quot;Groschopp, Richard&quot;</bucket>
+              <bucket>&quot;Beyer, Frank&quot;</bucket>
+              <bucket>&quot;Zschoche, Herrmann&quot;</bucket>
+              <bucket>&quot;Simon, Rainer&quot;</bucket>
+              <bucket>&quot;Wolf, Konrad&quot;</bucket>
+              <bucket>&quot;Petzold, Konrad&quot;</bucket>
+              <bucket>&quot;Koepp, Volker&quot;</bucket>
+              <bucket>&quot;Georgi, Klaus&quot;</bucket>
+              <bucket>&quot;Carow, Heiner&quot;</bucket>
+              <bucket>&quot;Reisch, Günter&quot;</bucket>
+              <bucket>&quot;Kolditz, Gottfried&quot;</bucket>
+              <bucket>&quot;Beck, Walter&quot;</bucket>
+              <bucket>&quot;Kühn, Siegfried&quot;</bucket>
+              <bucket>&quot;Kasten, Ullrich&quot;</bucket>
+              <bucket>&quot;Hadaschik, Joachim&quot;</bucket>
+              <bucket>&quot;Gräf, Roland&quot;</bucket>
+              <bucket>&quot;Gass, Karl&quot;</bucket>
+              <bucket>&quot;Dresen, Andreas&quot;</bucket>
+              <bucket>&quot;Machalz, Alfons&quot;</bucket>
+              <bucket>&quot;Losansky, Rolf&quot;</bucket>
+              <bucket>&quot;Kirsten, Ralf&quot;</bucket>
+              <bucket>&quot;Warneke, Lothar&quot;</bucket>
+              <bucket>&quot;Thorndike, Andrew&quot;</bucket>
+              <bucket>&quot;Thiel, Heinz&quot;</bucket>
+              <bucket>&quot;Dudow, Slatan&quot;</bucket>
+              <bucket>&quot;Barke, Lothar&quot;</bucket>
+              <bucket>&quot;Tetzlaff, Kurt&quot;</bucket>
+              <bucket>&quot;Stranka, Erwin&quot;</bucket>
+              <bucket>&quot;Rätz, Günter&quot;</bucket>
+              <bucket>&quot;Klein, Gerhard&quot;</bucket>
+              <bucket>&quot;Hasler, Joachim&quot;</bucket>
+              <bucket>&quot;Günther, Egon&quot;</bucket>
+              <bucket>&quot;Dziuba, Helmut&quot;</bucket>
+              <bucket>&quot;Böttge, Bruno J.&quot;</bucket>
+              <bucket>&quot;Wallroth, Werner W.&quot;</bucket>
+              <bucket>&quot;Steinheisser, Jürgen&quot;</bucket>
+              <bucket>&quot;Sobiczewski, Heinz&quot;</bucket>
+              <bucket>&quot;Kunert, Joachim&quot;</bucket>
+              <bucket>&quot;Klemke, Christian&quot;</bucket>
+              <bucket>&quot;Hellberg, Martin&quot;</bucket>
+              <bucket>&quot;Gusner, Iris&quot;</bucket>
+              <bucket>&quot;Foth, Jörg&quot;</bucket>
+              <bucket>&quot;Vogel, Frank&quot;</bucket>
+              <bucket>&quot;Steiner, Roland&quot;</bucket>
+              <bucket>&quot;Schreiber, Eduard&quot;</bucket>
+              <bucket>&quot;Sacher, Otto&quot;</bucket>
+              <bucket>&quot;Plickat, Kurt&quot;</bucket>
+              <bucket>&quot;Petersen, Peter&quot;</bucket>
+              <bucket>&quot;Oehme, Roland&quot;</bucket>
+              <bucket>&quot;Mund, Karlheinz&quot;</bucket>
+              <bucket>&quot;Müller, Hans&quot;</bucket>
+              <bucket>&quot;Misselwitz, Helke&quot;</bucket>
+              <bucket>&quot;Kroske, Gerd&quot;</bucket>
+              <bucket>&quot;Kratzert, Hans&quot;</bucket>
+              <bucket>&quot;Junge, Winfried&quot;</bucket>
+              <bucket>&quot;Huisken, Joop&quot;</bucket>
+              <bucket>&quot;Hellwig, Joachim&quot;</bucket>
+              <bucket>&quot;Hamacher, Sieglinde&quot;</bucket>
+              <bucket>&quot;Georgi, Katja&quot;</bucket>
+              <bucket>&quot;Forch, Juan&quot;</bucket>
+              <bucket>&quot;Brauer, Jürgen&quot;</bucket>
+              <bucket>&quot;Belz, Uwe&quot;</bucket>
+              <bucket>&quot;Weiß, Ulrich&quot;</bucket>
+              <bucket>&quot;Urbanek, Willi&quot;</bucket>
+              <bucket>&quot;Staudte, Wolfgang&quot;</bucket>
+              <bucket>&quot;Seemann, Horst&quot;</bucket>
+              <bucket>&quot;Schulze, Klaus&quot;</bucket>
+              <bucket>&quot;Scholz, Gunther&quot;</bucket>
+              <bucket>&quot;Pohl, Artur&quot;</bucket>
+              <bucket>&quot;Oelschlägel, Götz&quot;</bucket>
+              <bucket>&quot;Nitzschke, Helmut&quot;</bucket>
+              <bucket>&quot;Ballmann, Herbert&quot;</bucket>
+              <bucket>&quot;Wiemer, Christl&quot;</bucket>
+              <bucket>&quot;Voigt, Peter&quot;</bucket>
+              <bucket>&quot;Voigt, Andreas&quot;</bucket>
+              <bucket>&quot;Tschörtner, Petra&quot;</bucket>
+              <bucket>&quot;Tappert, Horst&quot;</bucket>
+              <bucket>&quot;Stephan, Bernhard&quot;</bucket>
+              <bucket>&quot;Stahnke, Günter&quot;</bucket>
+              <bucket>&quot;Schlegel, Egon&quot;</bucket>
+              <bucket>&quot;Nagel, Heinz&quot;</bucket>
+              <bucket>&quot;Kleberg, Johanna&quot;</bucket>
+              <bucket>&quot;Hartmann, Siegfried&quot;</bucket>
+              <bucket>&quot;Engel, Erich&quot;</bucket>
+              <bucket>&quot;Brandt, Horst E.&quot;</bucket>
+              <bucket>&quot;Winter, Horst&quot;</bucket>
+              <bucket>&quot;Weiß, Konrad&quot;</bucket>
+              <bucket>&quot;Veiczi, János&quot;</bucket>
+              <bucket>&quot;Tetzke, Ted (Detlef)&quot;</bucket>
+              <bucket>&quot;Spieß, Helmut&quot;</bucket>
+              <bucket>&quot;Solás, Humberto&quot;</bucket>
+              <bucket>&quot;Schober, Donat&quot;</bucket>
+              <bucket>&quot;Schnabel, Rolf&quot;</bucket>
+              <bucket>&quot;Röbbeling, Harald&quot;</bucket>
+              <bucket>&quot;Raue, Dieter&quot;</bucket>
+              <bucket>&quot;Nickel, Gitta&quot;</bucket>
+              <bucket>&quot;Müller, Heinz&quot;</bucket>
+              <bucket>&quot;Luderer, Wolfgang&quot;</bucket>
+              <bucket>&quot;Lotz, Karl Heinz&quot;</bucket>
+              <bucket>&quot;Krauße-Anderson, Monika&quot;</bucket>
+              <bucket>&quot;Kohlert, Werner&quot;</bucket>
+              <bucket>&quot;Kahane, Peter&quot;</bucket>
+              <bucket>&quot;Jung-Alsen, Kurt&quot;</bucket>
+              <bucket>&quot;Jentsch, Gerhard&quot;</bucket>
+              <bucket>&quot;Jaap, Max&quot;</bucket>
+              <bucket>&quot;Hübel, Wernfried&quot;</bucket>
+              <bucket>&quot;Hornig, Harry&quot;</bucket>
+              <bucket>&quot;Hohmann, Lew&quot;</bucket>
+              <bucket>&quot;Henke, Manfred&quot;</bucket>
+              <bucket>&quot;Hein, Rudi&quot;</bucket>
+              <bucket>&quot;Friedrich, Gunter&quot;</bucket>
+              <bucket>&quot;Flügge-Demitter, Ursula&quot;</bucket>
+              <bucket>&quot;Dobberke, Claus&quot;</bucket>
+              <bucket>&quot;(Neupert) Unterberg, Hannelore&quot;</bucket>
+              <bucket>&quot;Wildhagen, Georg&quot;</bucket>
+              <bucket>&quot;Weiler, Kurt&quot;</bucket>
+              <bucket>&quot;Thielemann, Regina&quot;</bucket>
+              <bucket>&quot;Steinkopff, Volker&quot;</bucket>
+              <bucket>&quot;Sperlich, Frank Otto&quot;</bucket>
+              <bucket>&quot;Sommermeyer, Regina&quot;</bucket>
+              <bucket>&quot;Schraps, Rudolf&quot;</bucket>
+              <bucket>&quot;Schmidt, Evelyn&quot;</bucket>
+              <bucket>&quot;Scharfenberg, Dieter&quot;</bucket>
+              <bucket>&quot;Rocha, Peter&quot;</bucket>
+              <bucket>&quot;Rinnelt, Frank&quot;</bucket>
+              <bucket>&quot;Reusch, Heinz&quot;</bucket>
+              <bucket>&quot;Reschke, Ingrid&quot;</bucket>
+              <bucket>&quot;Perez, Fernando&quot;</bucket>
+              <bucket>&quot;Nadine Fuhrhop&quot;</bucket>
+              <bucket>&quot;Marten, Walter&quot;</bucket>
+              <bucket>&quot;Mach, Josef&quot;</bucket>
+              <bucket>&quot;Landvogt, Wolfgang&quot;</bucket>
+              <bucket>&quot;Lamprecht, Gerhard&quot;</bucket>
+              <bucket>&quot;Kun, Julius&quot;</bucket>
+              <bucket>&quot;Kraußer, Jochen&quot;</bucket>
+              <bucket>&quot;Krauße, Werner&quot;</bucket>
+              <bucket>&quot;Kleberg, Bruno&quot;</bucket>
+              <bucket>&quot;Klaren, Georg C.&quot;</bucket>
+              <bucket>&quot;Kipping, Herwig&quot;</bucket>
+              <bucket>&quot;Kann, Michael&quot;</bucket>
+              <bucket>&quot;Juantorena, Alberto&quot;</bucket>
+              <bucket>&quot;Jordan, Günter&quot;</bucket>
+              <bucket>&quot;Hohmann, Sigrid&quot;</bucket>
+              <bucket>&quot;Heise, Thomas&quot;</bucket>
+              <bucket>&quot;Goldschmidt, Hans&quot;</bucket>
+              <bucket>&quot;Flemming, Klaus&quot;</bucket>
+              <bucket>&quot;Fischer, Heinz&quot;</bucket>
+              <bucket>&quot;Fiedler, Erich Wilhelm&quot;</bucket>
+              <bucket>&quot;Enseleit, Barbara Christa&quot;</bucket>
+              <bucket>&quot;Eckhold, Walter&quot;</bucket>
+              <bucket>&quot;Drescher, Wolfgang&quot;</bucket>
+              <bucket>&quot;Diakité, Moussa Kémoko&quot;</bucket>
+              <bucket>&quot;d&apos;Bomba, Jörg&quot;</bucket>
+              <bucket>&quot;Carpentier, Karlheinz&quot;</bucket>
+              <bucket>&quot;Cantzler, Ernst&quot;</bucket>
+              <bucket>&quot;Bickel, Rolf&quot;</bucket>
+              <bucket>&quot;Bartsch, Wolfgang&quot;</bucket>
+              <bucket>&quot;Backwinkel, Raimund&quot;</bucket>
+              <bucket>&quot;Angella, Giovanni&quot;</bucket>
+              <bucket>&quot;Alea, Tomás Gutiérrez&quot;</bucket>
+              <bucket>&quot;Wiemer, Hans-Ulrich&quot;</bucket>
+              <bucket>&quot;Wende, Christoph&quot;</bucket>
+              <bucket>&quot;Welz, Peter&quot;</bucket>
+              <bucket>&quot;Vorlíček, Václav&quot;</bucket>
+              <bucket>&quot;von Wangenheim, Gustav&quot;</bucket>
+              <bucket>&quot;Verhoeven, Paul&quot;</bucket>
+              <bucket>&quot;Unterberg, Hannelore&quot;</bucket>
+              <bucket>&quot;Tschirner, Joachim&quot;</bucket>
+              <bucket>&quot;Trimpert, Helge&quot;</bucket>
+              <bucket>&quot;Torres, Daniel Diaz&quot;</bucket>
+              <bucket>&quot;Thorndike, Annelie&quot;</bucket>
+              <bucket>&quot;Thieme, Bernhard&quot;</bucket>
+              <bucket>&quot;Thiel, Lotti&quot;</bucket>
+              <bucket>&quot;Thein, Ulrich&quot;</bucket>
+              <bucket>&quot;Stützner, Lutz&quot;</bucket>
+              <bucket>&quot;Stephan, Thomas&quot;</bucket>
+              <bucket>&quot;Stemmle, Robert A.&quot;</bucket>
+              <bucket>&quot;Steisinger, Gábor&quot;</bucket>
+              <bucket>&quot;Stefani, Francesco&quot;</bucket>
+              <bucket>&quot;Stanke, Kurt&quot;</bucket>
+              <bucket>&quot;Stanjek, Klaus&quot;</bucket>
+              <bucket>&quot;Später, Walter&quot;</bucket>
+              <bucket>&quot;Simon, Andrea&quot;</bucket>
+              <bucket>&quot;Seume, Dagmar&quot;</bucket>
+              <bucket>&quot;Seul, Arnold&quot;</bucket>
+              <bucket>&quot;Schumann, Dieter&quot;</bucket>
+              <bucket>&quot;Schuch, Christoph&quot;</bucket>
+              <bucket>&quot;Schröder, Carl&quot;</bucket>
+              <bucket>&quot;Schönemann, Sibylle&quot;</bucket>
+              <bucket>&quot;Schneider, Helmut&quot;</bucket>
+              <bucket>&quot;Schleif, Wolfgang&quot;</bucket>
+              <bucket>&quot;Schilling, Niklaus&quot;</bucket>
+              <bucket>&quot;Scheunert, Gerhard&quot;</bucket>
+              <bucket>&quot;Schade, Rainer&quot;</bucket>
+              <bucket>&quot;Sanoussi-Bliss, Pierre&quot;</bucket>
+              <bucket>&quot;Sander, Helke&quot;</bucket>
+              <bucket>&quot;Rücker, Günther&quot;</bucket>
+              <bucket>&quot;Romm, Mikhail&quot;</bucket>
+              <bucket>&quot;Römer, Rolf&quot;</bucket>
+              <bucket>&quot;Roloff, Stefan&quot;</bucket>
+              <bucket>&quot;Richardt, Ellen&quot;</bucket>
+              <bucket>&quot;Ressel-Wree, Angelika&quot;</bucket>
+              <bucket>&quot;Reinecke, Horst&quot;</bucket>
+              <bucket>&quot;Reed, Dean&quot;</bucket>
+              <bucket>&quot;Rasche, Marion&quot;</bucket>
+              <bucket>&quot;Potraffke, Eckhard&quot;</bucket>
+              <bucket>&quot;Pohler, Peter&quot;</bucket>
+              <bucket>&quot;Pewas, Peter&quot;</bucket>
+              <bucket>&quot;Pérez, Manuel&quot;</bucket>
+              <bucket>&quot;Paryla, Karl&quot;</bucket>
+              <bucket>&quot;Paris, Rogelio&quot;</bucket>
+              <bucket>&quot;Palitzsch, Peter&quot;</bucket>
+              <bucket>&quot;Orr, Joseph&quot;</bucket>
+              <bucket>&quot;Orgel, Horst&quot;</bucket>
+              <bucket>&quot;Müller, Rudolf&quot;</bucket>
+              <bucket>&quot;Mühlpforte, Günter&quot;</bucket>
+              <bucket>&quot;Moser, Hans&quot;</bucket>
+              <bucket>&quot;Mißbach, Peter&quot;</bucket>
+              <bucket>&quot;Milinski, Peter&quot;</bucket>
+              <bucket>&quot;Michalkow-Kontschalowski, Andrej&quot;</bucket>
+              <bucket>&quot;Meyer, Günter&quot;</bucket>
+              <bucket>&quot;Metzger, Anette&quot;</bucket>
+              <bucket>&quot;Mendelsohn, Dieter&quot;</bucket>
+              <bucket>&quot;Maugg, Gordian&quot;</bucket>
+              <bucket>&quot;Lübbert, Orlando&quot;</bucket>
+              <bucket>&quot;Löprich, Frank&quot;</bucket>
+              <bucket>&quot;Loebner, Vera&quot;</bucket>
+              <bucket>&quot;Langhoff, Thomas&quot;</bucket>
+              <bucket>&quot;Kurz, Rudi&quot;</bucket>
+              <bucket>&quot;Krätzig, Helmut&quot;</bucket>
+              <bucket>&quot;Körbler, Martina&quot;</bucket>
+              <bucket>&quot;Köhler, Ulrich&quot;</bucket>
+              <bucket>&quot;Knittel, Johannes&quot;</bucket>
+              <bucket>&quot;Kluge, Alexander&quot;</bucket>
+              <bucket>&quot;Klingler, Werner&quot;</bucket>
+              <bucket>&quot;Klauß, Cornelia&quot;</bucket>
+              <bucket>&quot;Kißling, Helmut&quot;</bucket>
+              <bucket>&quot;Kissimov, Georgi&quot;</bucket>
+              <bucket>&quot;Kilian, Georg&quot;</bucket>
+              <bucket>&quot;Kawalerowicz, Jerzy&quot;</bucket>
+              <bucket>&quot;Kasprzik, Hans-Joachim&quot;</bucket>
+              <bucket>&quot;Junge, Barbara&quot;</bucket>
+              <bucket>&quot;Ivens, Joris&quot;</bucket>
+              <bucket>&quot;Hugo Hermann&quot;</bucket>
+              <bucket>&quot;Höntsch, Andreas&quot;</bucket>
+              <bucket>&quot;Hohmann, Hans-Jürgen&quot;</bucket>
+              <bucket>&quot;Hochmuth, Dietmar&quot;</bucket>
+              <bucket>&quot;Hien, Dang&quot;</bucket>
+              <bucket>&quot;Heymann, Karl-Heinz&quot;</bucket>
+              <bucket>&quot;Herz, Joachim&quot;</bucket>
+              <bucket>&quot;Hertle, Hans-Hermann&quot;</bucket>
+              <bucket>&quot;Herrmann, Jörg&quot;</bucket>
+              <bucket>&quot;Hellmich, Peter&quot;</bucket>
+              <bucket>&quot;Heinrich, Hans&quot;</bucket>
+              <bucket>&quot;Hecht, Werner&quot;</bucket>
+              <bucket>&quot;Hauck, Elke&quot;</bucket>
+              <bucket>&quot;Hartung, Nina&quot;</bucket>
+              <bucket>&quot;Hartmann, Jürgen&quot;</bucket>
+              <bucket>&quot;Harnack, Falk&quot;</bucket>
+              <bucket>&quot;Hammer, Erich&quot;</bucket>
+              <bucket>&quot;Gwisdek, Michael&quot;</bucket>
+              <bucket>&quot;Grimm, Thomas&quot;</bucket>
+              <bucket>&quot;Glowna, Vadim&quot;</bucket>
+              <bucket>&quot;Giral, Sergio&quot;</bucket>
+              <bucket>&quot;Georgi, Oliver&quot;</bucket>
+              <bucket>&quot;Georgi, Armin&quot;</bucket>
+              <bucket>&quot;Geier, Wolfgang&quot;</bucket>
+              <bucket>&quot;Gehler, Fred&quot;</bucket>
+              <bucket>&quot;Fürneisen, Bodo&quot;</bucket>
+              <bucket>&quot;Funk, Hans-Joachim&quot;</bucket>
+              <bucket>&quot;Friedrich, Götz&quot;</bucket>
+              <bucket>&quot;Freund, Erich&quot;</bucket>
+              <bucket>&quot;Fisher, Holly&quot;</bucket>
+              <bucket>&quot;Espinosa, Julio García&quot;</bucket>
+              <bucket>&quot;Ensink, Ella&quot;</bucket>
+              <bucket>&quot;Engelhardt, Martin&quot;</bucket>
+              <bucket>&quot;Engel, Christoph&quot;</bucket>
+              <bucket>&quot;Eckhold, Barbara&quot;</bucket>
+              <bucket>&quot;Dumke, Hans&quot;</bucket>
+              <bucket>&quot;Dordschpalam, Rabschaa&quot;</bucket>
+              <bucket>&quot;Dochow, Inge&quot;</bucket>
+              <bucket>&quot;di Roes, Tohm&quot;</bucket>
+              <bucket>&quot;Dahle, Ernst&quot;</bucket>
+              <bucket>&quot;Czok, Alexandra&quot;</bucket>
+              <bucket>&quot;Cichon, Rolf&quot;</bucket>
+              <bucket>&quot;Chavez, Rebeca&quot;</bucket>
+              <bucket>&quot;Buntar, Dshamjangijn&quot;</bucket>
+              <bucket>&quot;Brinkmann, Heinz&quot;</bucket>
+              <bucket>&quot;Bredemeyer, Reiner&quot;</bucket>
+              <bucket>&quot;Brebera, Vladimir&quot;</bucket>
+              <bucket>&quot;Brandt, Richard&quot;</bucket>
+              <bucket>&quot;Bošković, Boško&quot;</bucket>
+              <bucket>&quot;Börner, Michael&quot;</bucket>
+              <bucket>&quot;Bonnet, Horst&quot;</bucket>
+              <bucket>&quot;Böhlich, Bernd&quot;</bucket>
+              <bucket>&quot;Boehm, Bernd&quot;</bucket>
+              <bucket>&quot;Bleiweiß, Celino&quot;</bucket>
+              <bucket>&quot;Bieber, Karl-Heinz&quot;</bucket>
+              <bucket>&quot;Bergmann, Werner&quot;</bucket>
+              <bucket>&quot;Berger-Fiedler, Róza&quot;</bucket>
+              <bucket>&quot;Bellon, Yannick&quot;</bucket>
+              <bucket>&quot;Behrend, Rainer&quot;</bucket>
+              <bucket>&quot;Bauder, Marc&quot;</bucket>
+              <bucket>&quot;Barthel, Lars&quot;</bucket>
+              <bucket>&quot;Barthel, Kurt&quot;</bucket>
+              <bucket>&quot;Bardem, Juan Antonio&quot;</bucket>
+              <bucket>&quot;Arnshtam, Lev&quot;</bucket>
+              <bucket>&quot;Altrichter, Stepan&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Runtime:nk]'>
+            <groupfilter function='level-members' level='[none:Runtime:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Runtime:nk]</column>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]</column>
+            <column>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[cnt:Title:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[cnt:Title:qk]</rows>
+        <cols>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]</cols>
+      </table>
+      <simple-id uuid='{A123F156-FE8F-40AC-8ADA-BA527DD89B55}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[attr:Director:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Runtime:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Title:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Year:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4A0B10A6-DE77-4FD9-A388-1C4A1478C897}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Director:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Runtime:nk]</field>
+            <field>[federated.1bs9ygt125ccxd17hd7tf1s12p97].[none:Title:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{06F991EE-0654-4531-A674-9197F8FC61DF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      w/dRNe0GzUPVNLK5/M43Zb6Lphvkcjl66tY8vG0tS0fdmq/noOkGhVyGjrp1tHf7aIZFqZCl
+      vX20d/tousVYIUOrt3X/q2uhGTblQppWzx5qqmFTLqZobGm+Y6IbfcYKSVra9lnBRLccStkE
+      7a0zgGo6IIcJKzs3kaiqhqRECO1aBaqmQiiKIvu7NA0pFEORdhaTaZr4cgjJd2/QwuA7Ixpy
+      GLz+iCYpEfxdmmGZSKEYnmuPxMmhGJ5jjWhKJI7bN0e0UCSJYxujWjRJ395Ze5quEUtmcXfF
+      3VUDpFNpEtEwrc7Owk6l0sSjIdrd3VqKeCREu6eNxMXCCp03aTJddWdS6VSaaEimqxojcZGQ
+      RE/bpaUzRGR/REuns4QlF1XfejMliXQmRxhn50ZsSSKTzRPybFRje0fIpLN5FM9E29YkmUyu
+      gOIYaIa9o+WLyH1t5+ZsSSGTLyHbvREtWxxDMrvoQy1EtlQGs41ubWlymFxpHPQm+tYlpCSH
+      yZXKuGoTY1tTwuRLZfpqE9MeaIl4lGIuTaW6c7mTSKUoZFNs7NaSKQqZFJu7LmOSqRT5TJLN
+      enNEy6WTVHdpqWSKbCpBtdHatS9SZFIJajdqyTj15s4BKp1KkU7EqO+6tEmlUgQIk7UAAAAm
+      SURBVKQSMRqtzkhcKh6l0e6OxCXjEZo3arEIzU5vV9vt9bij/X9RNB9wb4JL2AAAAABJRU5E
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
